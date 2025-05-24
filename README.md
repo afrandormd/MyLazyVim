@@ -14,27 +14,20 @@ Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
 # optional but recommended
 Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
 ```
-
-- Cloning konfigurasi
+### Cloning Konfigurasi
+- **Cloning konfigurasi (windows)**
 
 ```bash
 git clone https://github.com/afrandormd/MyLazyVim.git $env:LOCALAPPDATA\nvim
 ```
 
-- Mulai Neovim
+- **Cloning konfigurasi (linux)**
+```bash
+git clone https://github.com/afrandormd/MyLazyVim.git ~/.config/nvim
+```
+
+### Mulai Neovim
 
 ```bash
 nvim
-```
-
-```
-
-```
-
-```
-
-```
-
-```
-
 ```
